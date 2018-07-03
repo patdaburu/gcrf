@@ -1,11 +1,12 @@
 # With gratitude to by Mikael Silvén (https://github.com/silven/go-example)
+# Have a look at this example as well: https://gist.github.com/turtlemonvh/38bd3d73e61769767c35931d8c70ccb4
 
 # You want to edit these.
 # -----------------------
 # Provide the VCS repository for the project.
 REPOSITORY	:= github.com/patdaburu/gcrf
 # List subpackages in the project that contain go code.  (Don't include cmd.)
-PACKAGES 	:= common common/sub
+PACKAGES 	:= subpkg
 
 # You may want to edit these.
 # ---------------------------
